@@ -11,7 +11,7 @@
 
 - `什么值得买`每日签到
 - Github Action(两种配置方式，直接运行或者调用 Docker 运行)
-- 本地 Docker 定时运行
+- 本地 Docker 定时运行 
 - 通过`pushplus`推送运行结果到微信(不推荐)
 - 通过`server酱`推送运行结果到微信
 - 通过`telegram bot`推送
