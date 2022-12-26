@@ -31,7 +31,7 @@ on:
   workflow_dispatch:
 
   schedule:
-    - cron: "0 18 * * *"
+    - cron: "0 8 * * *"
 ```
 
 3. Secret 新增`SMZDM_COOKIE`, 填入[什么值得买官网](https://www.smzdm.com/)获取的 Cookie 信息, [详见](#31-Cookie获取方法)
