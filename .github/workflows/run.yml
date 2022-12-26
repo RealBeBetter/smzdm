@@ -3,9 +3,9 @@ name: "SMZDM Check-in Bot"
 on:
   workflow_dispatch:
 
-  # Uncomment below to schedule your job
-  # schedule:
-  #   - cron: "0 1 * * *"
+    Uncomment below to schedule your job
+    schedule:
+      - cron: "0 1 * * *"
 
 env:
   TZ: Asia/Shanghai
