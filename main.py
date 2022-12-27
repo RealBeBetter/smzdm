@@ -70,8 +70,8 @@ class SMZDM_Bot(object):
             🏅补签卡{cards}"""
             return msg
         else:
-            logger.error("Faile to sign in")
-            msg = MANUAL_ERR_MSG
+            logger.error("Faile to sign in, 签到失败")
+            return MANUAL_ERR_MSG
 
 
 def main():
