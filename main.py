@@ -13,7 +13,7 @@ from utils.file_helper import TomlHelper
 CURRENT_PATH = Path(__file__).parent.resolve()
 CONFIG_PATH = Path(CURRENT_PATH, "config")
 
-MANUAL_ERR_MSG = "签到失败,请从浏览器手动签到一次,并更新cookies"
+MANUAL_ERR_MSG = "签到失败，请从浏览器手动签到一次，并更新Cookies"
 
 
 class SMZDM_Bot(object):
