@@ -21,7 +21,7 @@ class SMZDM_Bot(object):
     DEFAULT_HEADERS = {
         "Accept": "*/*",
         "Accept-Encoding": "gzip, deflate, br",
-        "Accept-Language": "zh-CN,zh;q=0.9",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8,en-GB;q=0.7,en-US;q=0.6",
         "Connection": "keep-alive",
         "Host": "zhiyou.smzdm.com",
         "Referer": "https://www.smzdm.com/",
@@ -70,9 +70,7 @@ class SMZDM_Bot(object):
             🏅补签卡{cards}"""
             return msg
         else:
-            logger.error("Faile to sign in, 签到失败")
-            return MANUAL_ERR_MSG
-
+            logger.error("Faile to sign in, 签到失败" + MANUAL_ERR_MSG)
 
 def main():
     smzdm_bot = SMZDM_Bot()
