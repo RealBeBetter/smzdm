@@ -60,12 +60,12 @@ class SMZDM_Bot(object):
             tb.field_names = ["签到天数", "连续签到", "金币", "积分", "经验", "等级", "补签卡"]
             tb.add_row([checkin_num, days_of_week, gold, point, exp, rank, cards])
             logger.info(f"\n{tb}")
-            msg = f"""\n
-            ⭐签到成功{checkin_num}天\n
-            🏅金币{gold}\n
-            🏅积分{point}\n
-            🏅经验{exp}\n
-            🏅等级{rank}\n
+            msg = f"""
+            ⭐签到成功{checkin_num}天
+            🏅金币{gold}
+            🏅积分{point}
+            🏅经验{exp}
+            🏅等级{rank}
             🏅补签卡{cards}"""
             return msg
         else:
