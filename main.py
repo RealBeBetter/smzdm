@@ -61,16 +61,16 @@ class SMZDM_Bot(object):
             tb.add_row([checkin_num, days_of_week, gold, point, exp, rank, cards])
             logger.info(f"\n{tb}")
             msg = f"""
-            ⭐签到成功{checkin_num}天
-            🏅金币{gold}
-            🏅积分{point}
-            🏅经验{exp}
-            🏅等级{rank}
+            ⭐签到成功{checkin_num}天\n
+            🏅金币{gold}\n
+            🏅积分{point}\n
+            🏅经验{exp}\n
+            🏅等级{rank}\n
             🏅补签卡{cards}"""
             return msg
         else:
             logger.error("Faile to sign in, 签到失败" + MANUAL_ERR_MSG)
-            return "Faile to sign in, 签到失败" + MANUAL_ERR_MSG
+            msg = "Faile to sign in, 签到失败" + MANUAL_ERR_MSG
 
 
 def main():
