@@ -28,9 +28,9 @@ class SMZDM_Bot(object):
         "Sec-Fetch-Mode": "no-cors",
         "Sec-Fetch-Site": "same-site",
         "User-Agent": (
-            "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
-            "AppleWebKit/537.36 (KHTML, like Gecko) "
-            "Chrome/108.0.0.0 Safari/537.36 Edg/108.0.1462.54"
+            "Mozilla/5.0 (iPhone; CPU iPhone OS 13_2_3 like Mac OS X) "
+            "AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.3 "
+            "Mobile/15E148 Safari/604.1 Edg/108.0.0.0"
         ),
     }
 
