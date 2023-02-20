@@ -70,8 +70,6 @@ class SMZDM_Bot(object):
             return msg
         else:
             logger.error("Faile to sign in, 签到失败" + MANUAL_ERR_MSG)
-            return "Faile to sign in, 签到失败" + MANUAL_ERR_MSG
-
 
 def main():
     smzdm_bot = SMZDM_Bot()
