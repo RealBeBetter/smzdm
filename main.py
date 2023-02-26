@@ -15,7 +15,6 @@ CONFIG_PATH = Path(CURRENT_PATH, "config")
 
 MANUAL_ERR_MSG = "签到失败，请从浏览器手动签到一次，并更新Cookies"
 
-
 class SMZDM_Bot(object):
     DEFAULT_HEADERS = {
         "Accept": "*/*",
@@ -70,6 +69,7 @@ class SMZDM_Bot(object):
             return msg
         else:
             logger.error("Faile to sign in, 签到失败" + MANUAL_ERR_MSG)
+            msg = MANUAL_ERR_MSG
 
 def main():
     smzdm_bot = SMZDM_Bot()
